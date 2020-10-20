@@ -5,6 +5,9 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
 }
 
 /* Provide sufficient contrast against white background */
@@ -62,10 +65,58 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* Non-generated CSS */
+    
+h2 {        
+    text-align: center;
+    color: darkgreen;
+    
+}
+
+#about_page {
+    margin-bottom: auto;
+}
+
+#about_content {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 2.5px solid black;
+    border-color: navy;
+    text-align: left;
+    box-shadow: 0 5px 8px 0 lightblue, 0 5px 20px 0 lightblue;
+}
+
+#about_img {
+    float: right;
+    width: 50%;
+}
+
+.navbar-dark {
+    background-color: #002D72;
+    opacity: 0.947;
+}
+
+.text-dark {
+    color: #fff !important;
+}
+
+.display-4 {
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+    color: darkgreen;
 }
