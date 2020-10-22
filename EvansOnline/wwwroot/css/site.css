@@ -64,6 +64,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background: url(/img/dot-grid.png) repeat 0 0;
 }
 
 .footer {
@@ -95,7 +96,9 @@ h2 {
     padding: 25px;
     margin-bottom: 25px;
     border: 2.5px solid black;
+    border-radius: 15px;
     border-color: navy;
+    background-color: #fff;
     text-align: left;
     box-shadow: 0 5px 8px 0 lightblue, 0 5px 20px 0 lightblue;
 }
