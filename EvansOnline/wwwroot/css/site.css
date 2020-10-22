@@ -15,6 +15,14 @@ a {
   color: #0366d6;
 }
 
+a:hover {
+    color: #ccccff !important;
+}
+
+nav .text-dark:hover {
+    color: #ccccff !important;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;
