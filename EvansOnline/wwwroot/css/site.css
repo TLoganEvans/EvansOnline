@@ -116,7 +116,6 @@ h2 {
     border: 2.5px solid #002D72;
     border-radius: 15px;
     background-color: #fff;
-    text-align: left;
     box-shadow: 0 5px 20px 0 lightblue, 0 5px 20px 0 lightblue;
 }
 
@@ -156,6 +155,5 @@ ul {
 #contact_title {
     font-size: 2.5em;
     font-weight: 500;
-    text-align: center;
     color: darkgreen;
 }
