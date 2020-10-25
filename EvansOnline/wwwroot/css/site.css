@@ -113,6 +113,7 @@ h2 {
 
 .about-box {
     padding: 25px;
+    text-align: left;
     border: 2.5px solid #002D72;
     border-radius: 15px;
     background-color: #fff;
@@ -149,7 +150,7 @@ ul {
 
 #contact_list {
     margin-top: 25px;
-    line-height: 175%;
+    line-height: 100%;
     text-align: center;
 }
 
@@ -157,4 +158,5 @@ ul {
     font-size: 2.5em;
     font-weight: 500;
     color: darkgreen;
+    padding-bottom: 15px;
 }
