@@ -160,3 +160,57 @@ ul {
     color: darkgreen;
     padding-bottom: 15px;
 }
+
+.flex-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-grid .col {
+    flex: 1;
+}
+
+.port-box {
+    margin-top: 25px;
+    padding: 25px;
+    text-align: center;
+    border: 2.5px solid #002D72;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 20px 0 lightblue, 0 5px 20px 0 lightblue;
+}
+
+.port-box:hover {
+    background-color: #ccccff;
+}
+
+.btn {
+    background-color: #002D72;
+}
+
+.btn:hover {
+    background-color: darkgreen;
+}
+
+.modal {
+    text-align: center;
+    padding: 0 !important;
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.modal-header {
+    color: darkgreen;
+}
