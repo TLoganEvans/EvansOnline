@@ -40,12 +40,24 @@
 
             <!-- Modal body -->
             <div class="modal-body flex-grid">
-                <div class="column">
-                    Text
-                </div>
-                <div class="column">
-                    Images
-                </div>
+                <p>
+                    View the Github repository 
+                    <a href="https://github.com/TLoganEvans/EvansOnline" target="_blank">here</a>.
+                    <br /><br />
+                    This is the site you're currently using!
+                    <br /><br />
+                    The EvansOnline project is my personal portfolio site. It is built in HTML and C# on the dotNET MVC 
+                    framework. It is my first real dive into developing a website. I had leaned heavily into the HTML side of 
+                    things as I do not have much data to inject from a database or other source. It does not fully encapsulate 
+                    the utility of the MVC framework to provide a dynamic web experience, but serves as a foothold in web 
+                    development. 
+                    <br /><br /> 
+                    Visually, I wanted to keep a professional approach with the primary white color. The accent colors are of my 
+                    alma mater, Florida Gulf Coast University. To approach the design modernly, I looked to creating these panels 
+                    which would serve as the containers for the information I wanted on my site. The panels were given a glow to help 
+                    them pop from the page and break the background image. The navbar was created through the existing classes from 
+                    bootstrap. The specific styling can be seen within the site.css file.
+                </p>
             </div>
 
             <!-- Modal footer -->
@@ -57,7 +69,7 @@
 </div>
 
 <div class="modal" id="DGSearchBotModal">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-xlg">
         <div class="modal-content">
 
             <!-- Modal Header -->
@@ -69,10 +81,25 @@
             <!-- Modal body -->
             <div class="modal-body flex-grid">
                 <div class="column">
-                    Text
+                    <p>
+                        View the Github repository
+                        <a href="https://github.com/TLoganEvans/DGSearchBot" target="_blank">here</a>.
+                        <br /><br />
+                    </p>
                 </div>
-                <div class="column">
-                    Images
+                <div class="column" style="text-align:center">
+                    <img src="~/img/DGSearchBot/BotRunning.png" width="400" />
+                    <p style="font-style:italic; text-align:center">Image D-1 "DGSearchBot Running, Console Window"</p>
+                    <img src="~/img/DGSearchBot/HelpCommand.png" width="400" />
+                    <p style="font-style:italic; text-align:center">Image D-2 "Help Command"</p>
+                    <img src="~/img/DGSearchBot/MimicCommand.png" />
+                    <p style="font-style:italic; text-align:center">Image D-3 "Mimic Text Command"</p>
+                    <img src="~/img/DGSearchBot/PingCommand.png" />
+                    <p style="font-style:italic; text-align:center">Image D-4 "Ping-Pong Command"</p>
+                    <img src="~/img/DGSearchBot/RandomCommand.png" />
+                    <p style="font-style:italic; text-align:center">Image D-5 "Random Number Command"</p>
+                    <img src="~/img/DGSearchBot/WeatherCommand.png" />
+                    <p style="font-style:italic; text-align:center">Image D-6 "Weather by Zip Command"</p>
                 </div>
             </div>
 
@@ -85,7 +112,7 @@
 </div>
 
 <div class="modal" id="JPGuiProjectModal">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-xlg">
         <div class="modal-content">
 
             <!-- Modal Header -->
@@ -97,10 +124,44 @@
             <!-- Modal body -->
             <div class="modal-body flex-grid">
                 <div class="column">
-                    Text
+                    <p>
+                        View the Github repository
+                        <a href="https://github.com/TLoganEvans/JPGuiProject" target="_blank">here</a>.
+                        <br /><br />
+                        The program acts as a random character selector focused around the game "Tom Clancy's Rainbow Six Siege"
+                        by Ubisoft. This version is being built around the 'operation' within the game known as "Grim Sky". The
+                        program works through a custom designed UI, and utilizes a database.
+                        <br /><br />
+                        This Java based GUI application is developed by myself, a student of Florida Gulf Coast University for 
+                        educational purposes. Certain assets were provided by Ubisoft Montreal and Ubisoft in accordance with 
+                        fair use.
+                        <br /><br />
+                        The database of the program is created through Apache's embedded Derby database driver.
+                        <br /><br />
+                        The database "OperatorData" is broken up into two tables, ATTACKERS and DEFENDERS. Both tables hold the
+                        same structure and data types, but are differentiated by their contents. As of current build, each table
+                        has 21 rows each with 2 elements (NAME and IMAGE, both of type VARCHAR). NAME holds the value of each unique
+                        operator's name whilst IMAGE holds the relative path to the image of the respective operator.
+                        <br /><br />
+                        Aesthetically, this program is styled with CSS around a minimalistic design using a simple, but bold color 
+                        scheme. The alignment of buttons/nodes/images was based symmetrically on each other in the scene. For the 
+                        in-between scene of choosing an operator type and selecting a random operator, the operator icon images had 
+                        edited to better reflect this symmetry.
+                        <br /><br />
+                        The background remains constant across each scene with buttons and labels retaining a single scheme of light 
+                        blue(#36a9e0) background with white text(#fff) which allows for contrast and clarity between the white, cream, 
+                        and grey background. Buttons are clearly labeled to reflect which scene they go to or what action they perform. 
+                        This scheme set up for the program is coordinated with the color scheme of buttons within the official game of 
+                        "Tom Clancy's Rainbow Six Siege."
+                    </p>
                 </div>
-                <div class="column">
-                    Images
+                <div class="column" style="text-align:center">
+                    <img src="~/img/JPGuiProject/jgpstart.png" width="400" />
+                    <p style="font-style:italic; text-align:center">Image J-1 "App Start"</p>
+                    <img src="~/img/JPGuiProject/jgpattackersplash.png" width="400" />
+                    <p style="font-style:italic; text-align:center">Image J-2 "Attacker Icon Splash"</p>
+                    <img src="~/img/JPGuiProject/jgpattackerchosen.png" width="400" />
+                    <p style="font-style:italic; text-align:center">Image J-3 "Attack Chosen at Random"</p>
                 </div>
             </div>
 
@@ -113,7 +174,7 @@
 </div>
 
 <div class="modal" id="BitmapProjectVS2017Modal">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-xlg">
         <div class="modal-content">
 
             <!-- Modal Header -->
@@ -125,10 +186,41 @@
             <!-- Modal body -->
             <div class="modal-body flex-grid">
                 <div class="column">
-                    Text
+                    <p>
+                        View the Github repository
+                        <a href="https://github.com/TLoganEvans/BitmapProjectVS2017" target="_blank">here</a>.
+                        <br /><br />
+                        The purpose of this program is to encrypt and decrypt strings to and from a bitmap image file. It 
+                        was built in C++ and runs as a command line interface program for Windows. The byte and bitmap 
+                        logic was provided by my professor while I wrote the program logic.
+                        <br /><br />
+                        The program has an overarching boolean statement in order to loop after either decryption or 
+                        encryption. The boolean only changes when a user chooses option three, "Exit". The program then 
+                        finishes its execution and the CLI closes out. The dialogue to choose a run mode is a separate 
+                        method called by the main body of the program which is then parsed through a switch case statement.
+                        <br /><br />
+                        In the case of encryption, the program asks the user to supply a string to be encoded as well as the 
+                        path to a .bmp image file. It will then request a path to generate the new image with the encrypted 
+                        string. The program then details the amount of bytes in the original image as well as the amount of 
+                        bytes used to encrypt the string with a sentinel at the end. It finally displays the new picture's 
+                        path as well as total bytes written to generate it.
+                        <br /><br />
+                        Decryption works in a similar manner. A user specifies a path to a .bmp image that contains an 
+                        encoded string. The program then reads through the bytes of the image until it reaches a sentinel that
+                        is encrypted at the end of the hidden string. It writes out the image path, number of bytes read, and 
+                        number of bytes decrypted. Then the string that was encrypted is displayed in the CLI before the program 
+                        returns to receieve a run mode.
+                    </p>
                 </div>
-                <div class="column">
-                    Images
+                <div class="column" style="text-align:center">
+                    <img src="~/img/BmpProjectVS2017/AppStart.png" width="400" />
+                    <p style="font-style:italic; text-align:center">Image B-1 "App Start"</p>
+                    <img src="~/img/BmpProjectVS2017/EncryptImage.png" width="400" />
+                    <p style="font-style:italic; text-align:center">Image B-2 "Encrypt an Image"</p>
+                    <img src="~/img/BmpProjectVS2017/DecryptImage.png" width="400" />
+                    <p style="font-style:italic; text-align:center">Image B-3 "Decrypt an Image"</p>
+                    <img src="~/img/BmpProjectVS2017/BmpImages.png" width="250" />
+                    <p style="font-style:italic; text-align:center">Image B-4 "Original and Encoded Images"</p>
                 </div>
             </div>
 
