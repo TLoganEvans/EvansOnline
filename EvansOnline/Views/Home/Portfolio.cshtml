@@ -85,6 +85,36 @@
                         View the Github repository
                         <a href="https://github.com/TLoganEvans/DGSearchBot" target="_blank">here</a>.
                         <br /><br />
+                        DGSearchBot is a work in progress discord bot which operates on the Discord.gg API and is written in C#. 
+                        A Discord bot is a program which resides in a user's guild (server) and responds to commands entered 
+                        into a chat by any user. In order to recognize a command, a prefix character, unique to each bot, is 
+                        utilized. Future plans for the bot include being able to do simple online searches using a search 
+                        engine such as Google.
+                        <br /><br />
+                        The bot runs off of the console system to display information about its status as well as commands being
+                        received and responded to. The program is officially online at the line saying "Heartbeat task started".
+                        <br /><br />
+                        Every discord bot is equipped with a default "help" command which will list the rest of the commands that
+                        have been developed for it. The help command may also list the specifics of a command such as the syntax
+                        as well as descriptions of variables in the syntax.
+                        <br /><br />
+                        One of the first commands in DGSearchBot is the mimic command. Once called by a user, the bot will activate
+                        and await the next message to be sent. It then processes the message and re-sends it in the chat. After
+                        sending the clone message, the bot goes back to an inactive state waiting for the next command.
+                        <br /><br />
+                        DGSearchBot also has a fun command called "ping". In the image D-4, we see the bot will respond to the ping 
+                        command by sending the message "pong" into the chat. This is typically a tutorial and testing command to 
+                        ensure that the bot is able to succesffuly send a message to a server.
+                        <br /><br />
+                        The random number command uses the native C# method Random(). A user may enter any two numbers, a minimum 
+                        and a maximum. The random integer method will then take these two numbers and return any number between 
+                        and including them. DGSearchBot then outputs this random number into the discord chat.
+                        <br /><br />
+                        The last command currently on DGSearchBot is "weather". This command connects to an API provided by 
+                        OpenWeatherMap. This API returns a JSON of the weather variables of a given zip code within the United States 
+                        within this context. The variables used by the bot are: Zip/city name, temperature, "feels like" temperature, 
+                        humidity, and wind speed and direction. DGSearchBot will display these variables each in a new line in the 
+                        chat.
                     </p>
                 </div>
                 <div class="column" style="text-align:center">
